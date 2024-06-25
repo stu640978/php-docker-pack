@@ -1,0 +1,48 @@
+services:
+  php:
+    image: php:8.2-fpm
+    container_name: php-fpm
+    volumes:
+      - ./web:/var/www/html
+      # - ./php/php-fpm/www.conf:/usr/local/etc/php-fpm.d/www.conf
+      - ./php/php.ini:/usr/local/etc/php/php.ini
+    networks:
+      - web_network
+
+  nginx:
+    image: nginx:latest
+    container_name: nginx
+    volumes:
+      - ./web:/var/www/html
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./nginx/conf.d:/etc/nginx/conf.d
+      - ./nginx/log:/var/log/nginx
+    ports:
+      - "80:80"
+    depends_on:
+      - php
+    networks:
+      - web_network
+
+  composer:
+    image: composer:latest
+    container_name: composer
+    volumes:
+      - ./web:/app
+    networks:
+      - web_network
+    command: ["composer", "install"]
+
+  redis:
+    image: redis:latest
+    container_name: redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - ./redis/redis.conf:/usr/local/etc/redis/redis.conf
+    networks:
+      - web_network
+
+networks:
+  web_network:
+    external: true
