@@ -12,3 +12,35 @@
 2024/06/25 09:16:04 [emerg] 39#39: invalid number of arguments in "gzip_min_length" directive in /etc/nginx/nginx.conf:27
 2024/06/25 09:16:06 [emerg] 40#40: invalid number of arguments in "gzip_min_length" directive in /etc/nginx/nginx.conf:27
 2024/06/25 09:16:23 [notice] 42#42: signal process started
+2024/06/26 01:02:06 [notice] 39#39: signal process started
+2024/06/26 07:34:50 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/test_docker_project.conf:18
+2024/06/26 07:34:59 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/test_docker_project.conf:18
+2024/06/26 07:35:08 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/test_docker_project.conf:18
+2024/06/26 07:35:16 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/test_docker_project.conf:18
+2024/06/26 07:35:26 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/test_docker_project.conf:18
+2024/06/26 07:35:36 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/test_docker_project.conf:18
+2024/06/26 07:35:47 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/test_docker_project.conf:18
+2024/06/26 07:36:02 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/test_docker_project.conf:18
+2024/06/26 07:36:23 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/test_docker_project.conf:18
+2024/06/26 08:08:55 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/test_docker_project.conf:18
+2024/06/26 08:09:23 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/test_docker_project.conf:18
+2024/06/26 08:09:58 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/test_docker_project.conf:18
+2024/06/26 08:13:56 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/test_docker_project.conf:18
+2024/06/26 08:14:04 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/test_docker_project.conf:18
+2024/06/26 08:32:27 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/test_docker_project.conf:18
+2024/06/26 08:33:26 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/test_docker_project.conf:18
+2024/06/26 08:35:16 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/test_docker_project.conf:18
+2024/06/26 08:38:56 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/test_docker_project.conf:18
+2024/06/26 08:39:05 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/test_docker_project.conf:18
+2024/06/26 08:39:14 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/test_docker_project.conf:18
+2024/06/26 08:39:23 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/test_docker_project.conf:18
+2024/06/26 08:40:28 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/test_docker_project.conf:18
+2024/06/26 08:40:36 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/test_docker_project.conf:18
+2024/06/26 08:40:45 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/test_docker_project.conf:18
+2024/06/26 08:40:54 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/test_docker_project.conf:18
+2024/06/26 08:43:43 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/test_docker_project.conf:18
+2024/06/26 08:43:52 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/test_docker_project.conf:18
+2024/06/26 08:44:01 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/test_docker_project.conf:18
+2024/06/26 08:44:10 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/test_docker_project.conf:18
+2024/06/26 08:44:19 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/test_docker_project.conf:18
+2024/06/26 08:44:29 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/test_docker_project.conf:18
