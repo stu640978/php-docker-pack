@@ -11,9 +11,10 @@ services:
       - ./web:/var/www/html
       # - ./php/php-fpm/www.conf:/usr/local/etc/php-fpm.d/www.conf
       - ./php/php.ini:/usr/local/etc/php/php.ini
-      # - ./php/supervisor/supervisord.conf:/etc/supervisor/supervisord.conf
-      # - ./php/supervisor/conf:/etc/supervisor/conf.d
-      # - ./php/supervisor/log:/var/log/supervisor
+      - ./php/supervisor/supervisord.conf:/etc/supervisor/supervisord.conf
+      - ./php/supervisor/conf:/etc/supervisor/conf.d
+      - ./php/supervisor/log:/var/log/supervisor
+      - ./php/cron/crontab:/etc/cron.d/crontab
     networks:
       - web_network
 
@@ -33,19 +34,19 @@ services:
     networks:
       - web_network
 
-  cron:
-    image: alpine:latest
-    container_name: cron
-    build:
-      context: .
-      dockerfile: ./cron/Dockerfile
-    restart: unless-stopped
-    volumes:
-      - ./cron/crontab:/etc/crontabs/root
-      - ./web:/var/www/html
-    command: ["crond", "-f"]
-    networks:
-      - web_network
+  # cron:
+  #   image: alpine:latest
+  #   container_name: cron
+  #   build:
+  #     context: .
+  #     dockerfile: ./cron/Dockerfile
+  #   restart: unless-stopped
+  #   volumes:
+  #     - ./cron/crontab:/etc/crontabs/root
+  #     - ./web:/var/www/html
+  #   command: ["crond", "-f"]
+  #   networks:
+  #     - web_network
 
   redis:
     image: redis:latest

@@ -1,0 +1,213 @@
+2024-06-27 02:07:05,909 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2024-06-27 02:07:05,909 INFO Included extra file "/etc/supervisor/conf.d/test-docker-project.conf" during parsing
+2024-06-27 02:07:05,910 INFO supervisord started with pid 17
+2024-06-27 02:07:06,913 INFO spawned: 'TestDockerProject-laravel-queue' with pid 18
+2024-06-27 02:07:06,916 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-06-27 02:07:07,917 INFO success: TestDockerProject-laravel-queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 02:07:07,918 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-06-27 02:07:09,921 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-06-27 02:07:12,926 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-06-27 02:07:12,926 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2024-06-27 02:07:26,945 WARN received SIGINT indicating exit request
+2024-06-27 02:07:26,945 INFO waiting for TestDockerProject-laravel-queue to die
+2024-06-27 02:07:27,948 WARN stopped: TestDockerProject-laravel-queue (terminated by SIGTERM)
+2024-06-27 02:07:57,722 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2024-06-27 02:07:57,723 INFO Included extra file "/etc/supervisor/conf.d/test-docker-project.conf" during parsing
+2024-06-27 02:07:57,725 INFO supervisord started with pid 25
+2024-06-27 02:07:58,729 INFO spawned: 'TestDockerProject-laravel-queue' with pid 26
+2024-06-27 02:07:58,730 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-06-27 02:07:59,732 INFO success: TestDockerProject-laravel-queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 02:07:59,733 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-06-27 02:08:01,737 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-06-27 02:08:04,743 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-06-27 02:08:04,743 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2024-06-27 02:08:06,746 WARN received SIGINT indicating exit request
+2024-06-27 02:08:06,747 INFO waiting for TestDockerProject-laravel-queue to die
+2024-06-27 02:08:07,748 WARN received SIGINT indicating exit request
+2024-06-27 02:08:07,750 WARN stopped: TestDockerProject-laravel-queue (terminated by SIGTERM)
+2024-06-27 02:09:24,868 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2024-06-27 02:09:24,868 INFO Included extra file "/etc/supervisor/conf.d/test-docker-project.conf" during parsing
+2024-06-27 02:09:24,869 INFO supervisord started with pid 31
+2024-06-27 02:09:25,873 INFO spawned: 'TestDockerProject-laravel-queue' with pid 32
+2024-06-27 02:09:25,875 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-06-27 02:09:26,876 INFO success: TestDockerProject-laravel-queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 02:09:26,877 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-06-27 02:09:28,880 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-06-27 02:09:31,885 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-06-27 02:09:31,885 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2024-06-27 02:09:33,887 WARN received SIGINT indicating exit request
+2024-06-27 02:09:33,888 INFO waiting for TestDockerProject-laravel-queue to die
+2024-06-27 02:09:34,889 WARN received SIGINT indicating exit request
+2024-06-27 02:09:34,890 WARN stopped: TestDockerProject-laravel-queue (terminated by SIGTERM)
+2024-06-27 02:26:57,712 INFO Included extra file "/etc/supervisor/conf.d/test-docker-project.conf" during parsing
+2024-06-27 02:26:57,715 INFO supervisord started with pid 19
+2024-06-27 02:26:58,719 INFO spawned: 'TestDockerProject-laravel-queue' with pid 20
+2024-06-27 02:26:59,723 INFO success: TestDockerProject-laravel-queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 02:27:11,742 WARN received SIGINT indicating exit request
+2024-06-27 02:27:11,742 INFO waiting for TestDockerProject-laravel-queue to die
+2024-06-27 02:27:11,744 WARN stopped: TestDockerProject-laravel-queue (terminated by SIGTERM)
+2024-06-27 02:40:31,380 INFO Included extra file "/etc/supervisor/conf.d/test-docker-project.conf" during parsing
+2024-06-27 02:40:31,382 INFO supervisord started with pid 19
+2024-06-27 02:40:32,385 INFO spawned: 'TestDockerProject-laravel-queue' with pid 20
+2024-06-27 02:40:33,387 INFO success: TestDockerProject-laravel-queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 02:40:40,398 WARN received SIGINT indicating exit request
+2024-06-27 02:40:40,398 INFO waiting for TestDockerProject-laravel-queue to die
+2024-06-27 02:40:40,400 WARN stopped: TestDockerProject-laravel-queue (terminated by SIGTERM)
+2024-06-27 02:55:13,149 INFO Included extra file "/etc/supervisor/conf.d/test-docker-project.conf" during parsing
+2024-06-27 02:55:13,151 INFO supervisord started with pid 8
+2024-06-27 02:55:14,155 INFO spawned: 'TestDockerProject-laravel-queue' with pid 11
+2024-06-27 02:55:15,157 INFO success: TestDockerProject-laravel-queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 03:00:03,587 INFO Included extra file "/etc/supervisor/conf.d/test-docker-project.conf" during parsing
+2024-06-27 03:00:03,588 INFO supervisord started with pid 8
+2024-06-27 03:00:04,593 INFO spawned: 'TestDockerProject-laravel-queue' with pid 11
+2024-06-27 03:00:05,595 INFO success: TestDockerProject-laravel-queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 03:02:25,548 INFO Included extra file "/etc/supervisor/conf.d/test-docker-project.conf" during parsing
+2024-06-27 03:02:25,549 INFO supervisord started with pid 8
+2024-06-27 03:02:26,553 INFO spawned: 'TestDockerProject-laravel-queue' with pid 17
+2024-06-27 03:02:27,555 INFO success: TestDockerProject-laravel-queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 03:09:25,175 INFO Included extra file "/etc/supervisor/conf.d/test-docker-project.conf" during parsing
+2024-06-27 03:09:25,180 INFO supervisord started with pid 8
+2024-06-27 03:09:26,183 INFO spawned: 'TestDockerProject-laravel-queue' with pid 11
+2024-06-27 03:09:27,185 INFO success: TestDockerProject-laravel-queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 03:10:14,387 INFO Included extra file "/etc/supervisor/conf.d/test-docker-project.conf" during parsing
+2024-06-27 03:10:14,389 INFO supervisord started with pid 8
+2024-06-27 03:10:15,393 INFO spawned: 'TestDockerProject-laravel-queue' with pid 17
+2024-06-27 03:10:16,395 INFO success: TestDockerProject-laravel-queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 03:16:31,378 INFO Included extra file "/etc/supervisor/conf.d/test-docker-project.conf" during parsing
+2024-06-27 03:16:31,380 INFO supervisord started with pid 8
+2024-06-27 03:16:32,383 INFO spawned: 'TestDockerProject-laravel-queue' with pid 17
+2024-06-27 03:16:33,385 INFO success: TestDockerProject-laravel-queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 03:17:06,639 INFO Included extra file "/etc/supervisor/conf.d/test-docker-project.conf" during parsing
+2024-06-27 03:17:06,642 INFO supervisord started with pid 23
+2024-06-27 03:17:07,647 INFO spawned: 'TestDockerProject-laravel-queue' with pid 24
+2024-06-27 03:17:08,649 INFO success: TestDockerProject-laravel-queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 03:17:09,652 WARN received SIGINT indicating exit request
+2024-06-27 03:17:09,652 INFO waiting for TestDockerProject-laravel-queue to die
+2024-06-27 03:17:09,656 WARN stopped: TestDockerProject-laravel-queue (terminated by SIGTERM)
+2024-06-27 03:20:38,110 INFO Included extra file "/etc/supervisor/conf.d/test-docker-project.conf" during parsing
+2024-06-27 03:20:38,117 INFO RPC interface 'supervisor' initialized
+2024-06-27 03:20:38,117 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2024-06-27 03:20:38,117 INFO supervisord started with pid 8
+2024-06-27 03:20:39,123 INFO spawned: 'TestDockerProject-laravel-queue' with pid 17
+2024-06-27 03:20:40,126 INFO success: TestDockerProject-laravel-queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 03:23:48,775 WARN exited: TestDockerProject-laravel-queue (exit status 1; not expected)
+2024-06-27 03:23:49,779 INFO spawned: 'TestDockerProject-laravel-queue' with pid 23
+2024-06-27 03:23:50,010 WARN exited: TestDockerProject-laravel-queue (exit status 1; not expected)
+2024-06-27 03:23:51,012 INFO spawned: 'TestDockerProject-laravel-queue' with pid 28
+2024-06-27 03:23:51,314 WARN exited: TestDockerProject-laravel-queue (exit status 1; not expected)
+2024-06-27 03:23:53,320 INFO spawned: 'TestDockerProject-laravel-queue' with pid 33
+2024-06-27 03:23:53,412 WARN exited: TestDockerProject-laravel-queue (exit status 1; not expected)
+2024-06-27 03:23:56,416 INFO spawned: 'TestDockerProject-laravel-queue' with pid 38
+2024-06-27 03:23:56,509 WARN exited: TestDockerProject-laravel-queue (exit status 1; not expected)
+2024-06-27 03:23:57,511 INFO gave up: TestDockerProject-laravel-queue entered FATAL state, too many start retries too quickly
+2024-06-27 03:34:56,232 INFO Included extra file "/etc/supervisor/conf.d/test-docker-project.conf" during parsing
+2024-06-27 03:34:56,241 INFO RPC interface 'supervisor' initialized
+2024-06-27 03:34:56,241 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2024-06-27 03:34:56,241 INFO supervisord started with pid 8
+2024-06-27 03:34:57,244 INFO spawned: 'TestDockerProject-laravel-queue' with pid 11
+2024-06-27 03:34:58,246 INFO success: TestDockerProject-laravel-queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 05:18:18,873 WARN exited: TestDockerProject-laravel-queue (exit status 1; not expected)
+2024-06-27 05:18:19,876 INFO spawned: 'TestDockerProject-laravel-queue' with pid 42
+2024-06-27 05:18:20,147 WARN exited: TestDockerProject-laravel-queue (exit status 1; not expected)
+2024-06-27 05:18:21,150 INFO spawned: 'TestDockerProject-laravel-queue' with pid 47
+2024-06-27 05:18:21,244 WARN exited: TestDockerProject-laravel-queue (exit status 1; not expected)
+2024-06-27 05:18:23,247 INFO spawned: 'TestDockerProject-laravel-queue' with pid 52
+2024-06-27 05:18:23,347 WARN exited: TestDockerProject-laravel-queue (exit status 1; not expected)
+2024-06-27 05:18:26,352 INFO spawned: 'TestDockerProject-laravel-queue' with pid 57
+2024-06-27 05:18:26,449 WARN exited: TestDockerProject-laravel-queue (exit status 1; not expected)
+2024-06-27 05:18:27,451 INFO gave up: TestDockerProject-laravel-queue entered FATAL state, too many start retries too quickly
+2024-06-27 05:24:44,510 INFO Included extra file "/etc/supervisor/conf.d/test-docker-project.conf" during parsing
+2024-06-27 05:24:44,516 INFO RPC interface 'supervisor' initialized
+2024-06-27 05:24:44,516 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2024-06-27 05:24:44,516 INFO supervisord started with pid 8
+2024-06-27 05:24:45,518 INFO spawned: 'TestDockerProject-laravel-queue' with pid 12
+2024-06-27 05:24:46,520 INFO success: TestDockerProject-laravel-queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 05:26:03,874 WARN exited: TestDockerProject-laravel-queue (exit status 1; not expected)
+2024-06-27 05:26:04,877 INFO spawned: 'TestDockerProject-laravel-queue' with pid 23
+2024-06-27 05:26:04,969 WARN exited: TestDockerProject-laravel-queue (exit status 1; not expected)
+2024-06-27 05:26:05,973 INFO spawned: 'TestDockerProject-laravel-queue' with pid 28
+2024-06-27 05:26:06,069 WARN exited: TestDockerProject-laravel-queue (exit status 1; not expected)
+2024-06-27 05:26:08,074 INFO spawned: 'TestDockerProject-laravel-queue' with pid 33
+2024-06-27 05:26:08,167 WARN exited: TestDockerProject-laravel-queue (exit status 1; not expected)
+2024-06-27 05:26:11,175 INFO spawned: 'TestDockerProject-laravel-queue' with pid 38
+2024-06-27 05:26:11,267 WARN exited: TestDockerProject-laravel-queue (exit status 1; not expected)
+2024-06-27 05:26:12,268 INFO gave up: TestDockerProject-laravel-queue entered FATAL state, too many start retries too quickly
+2024-06-27 05:28:44,420 INFO Included extra file "/etc/supervisor/conf.d/test-docker-project.conf" during parsing
+2024-06-27 05:28:44,425 INFO RPC interface 'supervisor' initialized
+2024-06-27 05:28:44,425 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2024-06-27 05:28:44,425 INFO supervisord started with pid 8
+2024-06-27 05:28:45,428 INFO spawned: 'TestDockerProject-laravel-queue' with pid 13
+2024-06-27 05:28:46,430 INFO success: TestDockerProject-laravel-queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 05:43:33,388 WARN exited: TestDockerProject-laravel-queue (exit status 1; not expected)
+2024-06-27 05:43:34,394 INFO spawned: 'TestDockerProject-laravel-queue' with pid 27
+2024-06-27 05:43:34,619 WARN exited: TestDockerProject-laravel-queue (exit status 1; not expected)
+2024-06-27 05:43:35,623 INFO spawned: 'TestDockerProject-laravel-queue' with pid 32
+2024-06-27 05:43:35,717 WARN exited: TestDockerProject-laravel-queue (exit status 1; not expected)
+2024-06-27 05:43:37,723 INFO spawned: 'TestDockerProject-laravel-queue' with pid 37
+2024-06-27 05:43:37,819 WARN exited: TestDockerProject-laravel-queue (exit status 1; not expected)
+2024-06-27 05:43:40,826 INFO spawned: 'TestDockerProject-laravel-queue' with pid 42
+2024-06-27 05:43:40,920 WARN exited: TestDockerProject-laravel-queue (exit status 1; not expected)
+2024-06-27 05:43:41,922 INFO gave up: TestDockerProject-laravel-queue entered FATAL state, too many start retries too quickly
+2024-06-27 06:00:38,899 INFO Included extra file "/etc/supervisor/conf.d/test-docker-project.conf" during parsing
+2024-06-27 06:00:38,908 INFO RPC interface 'supervisor' initialized
+2024-06-27 06:00:38,909 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2024-06-27 06:00:38,909 INFO supervisord started with pid 8
+2024-06-27 06:00:39,912 INFO spawned: 'TestDockerProject-laravel-queue' with pid 11
+2024-06-27 06:00:40,914 INFO success: TestDockerProject-laravel-queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 08:58:26,443 WARN exited: TestDockerProject-laravel-queue (exit status 1; not expected)
+2024-06-27 08:58:27,449 INFO spawned: 'TestDockerProject-laravel-queue' with pid 554
+2024-06-27 08:58:27,671 WARN exited: TestDockerProject-laravel-queue (exit status 1; not expected)
+2024-06-27 08:58:28,674 INFO spawned: 'TestDockerProject-laravel-queue' with pid 559
+2024-06-27 08:58:28,765 WARN exited: TestDockerProject-laravel-queue (exit status 1; not expected)
+2024-06-27 08:58:30,773 INFO spawned: 'TestDockerProject-laravel-queue' with pid 564
+2024-06-27 08:58:30,864 WARN exited: TestDockerProject-laravel-queue (exit status 1; not expected)
+2024-06-27 08:58:33,869 INFO spawned: 'TestDockerProject-laravel-queue' with pid 569
+2024-06-27 08:58:33,964 WARN exited: TestDockerProject-laravel-queue (exit status 1; not expected)
+2024-06-27 08:58:34,965 INFO gave up: TestDockerProject-laravel-queue entered FATAL state, too many start retries too quickly
+2024-06-27 09:04:17,566 INFO Included extra file "/etc/supervisor/conf.d/test-docker-project.conf" during parsing
+2024-06-27 09:04:17,576 INFO RPC interface 'supervisor' initialized
+2024-06-27 09:04:17,576 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2024-06-27 09:04:17,577 INFO supervisord started with pid 9
+2024-06-27 09:04:18,581 INFO spawned: 'TestDockerProject-laravel-queue' with pid 19
+2024-06-27 09:04:19,583 INFO success: TestDockerProject-laravel-queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 09:09:22,861 WARN exited: TestDockerProject-laravel-queue (exit status 1; not expected)
+2024-06-27 09:09:23,864 INFO spawned: 'TestDockerProject-laravel-queue' with pid 32
+2024-06-27 09:09:23,955 WARN exited: TestDockerProject-laravel-queue (exit status 1; not expected)
+2024-06-27 09:09:24,959 INFO spawned: 'TestDockerProject-laravel-queue' with pid 37
+2024-06-27 09:09:25,056 WARN exited: TestDockerProject-laravel-queue (exit status 1; not expected)
+2024-06-27 09:09:27,061 INFO spawned: 'TestDockerProject-laravel-queue' with pid 42
+2024-06-27 09:09:27,154 WARN exited: TestDockerProject-laravel-queue (exit status 1; not expected)
+2024-06-27 09:09:30,160 INFO spawned: 'TestDockerProject-laravel-queue' with pid 47
+2024-06-27 09:09:30,256 WARN exited: TestDockerProject-laravel-queue (exit status 1; not expected)
+2024-06-27 09:09:31,258 INFO gave up: TestDockerProject-laravel-queue entered FATAL state, too many start retries too quickly
+2024-06-27 09:11:40,166 INFO Included extra file "/etc/supervisor/conf.d/test-docker-project.conf" during parsing
+2024-06-27 09:11:40,169 INFO RPC interface 'supervisor' initialized
+2024-06-27 09:11:40,169 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2024-06-27 09:11:40,169 INFO supervisord started with pid 8
+2024-06-27 09:11:41,172 INFO spawned: 'TestDockerProject-laravel-queue' with pid 18
+2024-06-27 09:11:42,174 INFO success: TestDockerProject-laravel-queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 09:12:17,419 WARN exited: TestDockerProject-laravel-queue (exit status 1; not expected)
+2024-06-27 09:12:18,422 INFO spawned: 'TestDockerProject-laravel-queue' with pid 23
+2024-06-27 09:12:18,521 WARN exited: TestDockerProject-laravel-queue (exit status 1; not expected)
+2024-06-27 09:12:19,523 INFO spawned: 'TestDockerProject-laravel-queue' with pid 28
+2024-06-27 09:12:19,626 WARN exited: TestDockerProject-laravel-queue (exit status 1; not expected)
+2024-06-27 09:12:21,631 INFO spawned: 'TestDockerProject-laravel-queue' with pid 33
+2024-06-27 09:12:21,723 WARN exited: TestDockerProject-laravel-queue (exit status 1; not expected)
+2024-06-27 09:12:24,727 INFO spawned: 'TestDockerProject-laravel-queue' with pid 38
+2024-06-27 09:12:24,827 WARN exited: TestDockerProject-laravel-queue (exit status 1; not expected)
+2024-06-27 09:16:50,431 INFO Included extra file "/etc/supervisor/conf.d/test-docker-project.conf" during parsing
+2024-06-27 09:16:50,448 INFO RPC interface 'supervisor' initialized
+2024-06-27 09:16:50,448 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2024-06-27 09:16:50,449 INFO supervisord started with pid 8
+2024-06-27 09:16:51,452 INFO spawned: 'TestDockerProject-laravel-queue' with pid 18
+2024-06-27 09:16:52,455 INFO success: TestDockerProject-laravel-queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-27 09:23:38,370 WARN exited: TestDockerProject-laravel-queue (exit status 1; not expected)
+2024-06-27 09:23:39,374 INFO spawned: 'TestDockerProject-laravel-queue' with pid 23
+2024-06-27 09:23:39,467 WARN exited: TestDockerProject-laravel-queue (exit status 1; not expected)
+2024-06-27 09:23:40,470 INFO spawned: 'TestDockerProject-laravel-queue' with pid 28
+2024-06-27 09:23:40,560 WARN exited: TestDockerProject-laravel-queue (exit status 1; not expected)
+2024-06-27 09:23:42,565 INFO spawned: 'TestDockerProject-laravel-queue' with pid 33
+2024-06-27 09:23:42,656 WARN exited: TestDockerProject-laravel-queue (exit status 1; not expected)
+2024-06-27 09:23:45,661 INFO spawned: 'TestDockerProject-laravel-queue' with pid 38
+2024-06-27 09:23:45,758 WARN exited: TestDockerProject-laravel-queue (exit status 1; not expected)
+2024-06-27 09:23:46,759 INFO gave up: TestDockerProject-laravel-queue entered FATAL state, too many start retries too quickly

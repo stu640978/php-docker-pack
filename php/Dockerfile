@@ -13,6 +13,8 @@ RUN apt-get update && apt-get install -y \
     libxml2-dev \
     zip \
     unzip \
+    supervisor \
+    cron \
     git
 
 # PHP擴展分開安裝以便得知安裝失敗項目
@@ -32,6 +34,20 @@ RUN if ! pecl list | grep -q redis; then pecl install redis && docker-php-ext-en
 # 安裝 Composer
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
+# 複製 Supervisor 配置文件
+COPY php/supervisor/supervisord.conf /etc/supervisor/supervisord.conf
+
+# 複製 Cron 配置文件
+COPY php/cron/crontab /etc/cron.d/crontab
+RUN chmod 0644 /etc/cron.d/crontab && crontab /etc/cron.d/crontab
+
+# 确保 /var/run 目录存在并有正确权限
+RUN mkdir -p /var/run/cron && chmod 0755 /var/run/cron
+
+# 複製啟動腳本
+COPY php/start.sh /usr/local/bin/start.sh
+RUN chmod +x /usr/local/bin/start.sh
+
 # 設置工作目錄
 WORKDIR /var/www/html
 
@@ -40,5 +56,7 @@ COPY . .
 
 # 設置合適的權限
 RUN chown -R www-data:www-data /var/www/html
+
+CMD ["/usr/local/bin/start.sh"]
 
 EXPOSE 9000
