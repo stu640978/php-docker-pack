@@ -64,5 +64,6 @@
 
 - For Laravel projects, currently, cannot use `Cron` in the container, use Laravel Task Scheduling with Supervisor instead (see `php/supervisor/conf/test-docker-project.conf` for example)
 - The configuration of php, php-fpm, nginx, redis, and supervisor are just for reference, you can modify them as you need
-- If you modify the configurations after building the images, you'll need to rebuild them manually (May need to remove old images, containers, and volumes first)
+- Default password for Redis is `qaz@1234`, you can change it in `redis/redis.conf`
+- If you modify the Dockerfile after building the images, you'll need to rebuild them manually (May need to remove old images, containers, and volumes first)
 - For windows users who use docker in windows straightly via WSL2 may encounter performance issues, it's because of the file systems. Windows and linux use different file systems, the translation between them will cause performance issues. In this case, use docker in WSL2 filesystem is recommended and more efficient, which means you need to put your projects in WSL2 filesystem, not in windows filesystem. You can access WSL2 filesystem via `\\wsl$\Ubuntu-20.04\home\your-username` in windows explorer(Replace `Ubuntu-20.04` with your WSL2 distribution name, and `your-username` with your WSL2 username)
