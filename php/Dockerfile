@@ -1,4 +1,4 @@
-FROM php:8.1-fpm
+FROM php:8.2-fpm
 
 # 安裝必要的 PHP 擴展
 RUN apt-get update && apt-get install -y \
@@ -33,6 +33,10 @@ RUN if ! pecl list | grep -q redis; then pecl install redis && docker-php-ext-en
 # 安裝 Composer
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
+# 軟連結/var/www/html到/usr/local/apache2/htdocs(apache container預設web目錄)
+RUN mkdir /usr/local/apache2
+RUN ln -s /var/www/html /usr/local/apache2/htdocs
+
 # 複製 Supervisor 配置文件
 COPY php/supervisor/supervisord.conf /etc/supervisor/supervisord.conf
 
@@ -49,8 +53,8 @@ WORKDIR /var/www/html
 # 複製現有的應用程序代碼
 COPY . .
 
-# 設置合適的權限
-RUN chown -R www-data:www-data /var/www/html
+# 設置合適的權限(移動至start.sh中執行)
+# RUN chown -R www-data:www-data /var/www/html
 
 # run shell script
 CMD ["/usr/local/bin/start.sh"]

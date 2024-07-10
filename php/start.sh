@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# set /var/www/html owner to www-data
+chown -R www-data:www-data /var/www/html
+
 # Start PHP-FPM
 php-fpm &
 # Start supervisor

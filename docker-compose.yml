@@ -1,6 +1,6 @@
 services:
   php:
-    image: php:8.1-fpm
+    image: php:8.2-fpm
     container_name: php-fpm
     build:
       context: .
@@ -27,9 +27,28 @@ services:
       - ./nginx/nginx.conf:/etc/nginx/nginx.conf
       - ./nginx/conf.d:/etc/nginx/conf.d
       - ./nginx/log:/var/log/nginx
+      - ./nginx/certs:/etc/nginx/certs
     ports:
       - "80:80"
       - "81:81"
+    depends_on:
+      - php
+    networks:
+      - web_network
+
+  apache:
+    image: httpd:latest
+    container_name: apache
+    restart: always
+    volumes:
+      - ./web:/usr/local/apache2/htdocs
+      - ./apache/httpd.conf:/usr/local/apache2/conf/httpd.conf
+      - ./apache/conf.d:/usr/local/apache2/conf/extra
+      - ./apache/log:/usr/local/apache2/logs
+      - ./apache/certs:/usr/local/apache2/conf/certs
+    ports:
+      - "8000:80"
+      - "8001:8001"
     depends_on:
       - php
     networks:
