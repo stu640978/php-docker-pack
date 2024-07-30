@@ -1,5 +1,8 @@
 FROM php:8.1-fpm
 
+# change user to root
+USER root
+
 # 安裝必要的 PHP 擴展
 RUN apt-get update && apt-get install -y \
     build-essential \

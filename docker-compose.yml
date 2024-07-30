@@ -6,6 +6,7 @@ services:
       context: .
       dockerfile: ./php/Dockerfile
     restart: always
+    user: "root:root"
     depends_on:
       - redis
     volumes:
